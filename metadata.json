@@ -1,0 +1,7 @@
+{
+  "name": "La Veranda Da Simona",
+  "description": "A luxury rustic-chic sanctuary near Rome, Italy. Experience authentic Italian living with contemporary comforts.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
