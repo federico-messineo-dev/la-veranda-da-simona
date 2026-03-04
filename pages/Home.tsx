@@ -143,11 +143,15 @@ const Home: React.FC = () => {
             </a>
           </div>
           <div className="lg:w-1/2 aspect-square md:aspect-video lg:aspect-auto rounded-3xl overflow-hidden shadow-2xl scroll-reveal border-8 border-white bg-stone-200">
-             <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2958.825123456789!2d12.5367!3d42.1438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDA4JzM3LjciTiAxMsKwMzInMTIuMSJF!5e0!3m2!1sen!2sit!4v1698765432100!5m2!1sen!2sit" 
-                className="w-full h-full border-0 grayscale hover:grayscale-0 transition-all duration-1000" 
+             <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.1557957453747!2d12.553002477237087!3d42.10413405123022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6c3d27b65319%3A0x8f48364c6bf0804d!2sVia%20Madonna%20Due%20Ponti%2C%2096%2C%2000060%20Colle%20del%20Fagiano%20RM!5e0!3m2!1sit!2sit!4v1772302057855!5m2!1sit!2sit"
+                className="w-full h-full border-0 grayscale hover:grayscale-0 transition-all duration-1000"
+                style={{ border: 0 }}
+                allowFullScreen=""
                 loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
+
           </div>
         </div>
       </section>
