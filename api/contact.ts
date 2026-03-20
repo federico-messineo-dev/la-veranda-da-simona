@@ -16,7 +16,7 @@ export default async function handler(req: any, res: any) {
   try {
     const { data, error } = await resend.emails.send({
       from: 'La Veranda <onboarding@resend.dev>', // You should use your own domain on Resend
-      to: ['laverandadasimona@gmail.com'],
+      to: ['federico.messineo.ai@gmail.com'],
       reply_to: email,
       subject: `[Sito Web] ${subject}: ${name}`,
       text: `Hai ricevuto un nuovo messaggio dal sito web:\n\nNome: ${name}\nEmail: ${email}\nOggetto: ${subject}\n\nMessaggio:\n${message}`,
