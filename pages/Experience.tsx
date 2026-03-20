@@ -10,14 +10,14 @@ const Experience: React.FC = () => {
     {
       title: t.experience.gastronomy,
       tag: "Gastronomy",
-      img: "/images/esperienze-3.jpg",
+      img: "/images/esperienze-3.webp",
       desc: t.experience.gastronomyDesc,
       features: [t.experience.features.cooking, t.experience.features.wine, t.experience.features.oil]
     },
     {
       title: t.experience.culture,
       tag: "Culture",
-      img: "/images/esperienze-4.jpg",
+      img: "/images/esperienze-4.webp",
       desc: t.experience.cultureDesc,
       features: [t.experience.features.transfer, t.experience.features.cityTours, t.experience.features.priority],
       reversed: true
@@ -25,7 +25,7 @@ const Experience: React.FC = () => {
     {
       title: t.experience.wellness,
       tag: "Relaxation",
-      img: "/images/esperienze-2.jpg",
+      img: "/images/esperienze-2.webp",
       desc: t.experience.wellnessDesc,
       features: [t.experience.features.massage, t.experience.features.yoga, t.experience.features.trails]
     }
@@ -34,7 +34,7 @@ const Experience: React.FC = () => {
   return (
     <div className="bg-bg-cream">
       <ParallaxSection 
-        image="/images/esperienze-1.jpg"
+        image="/images/esperienze-1.webp"
         height="60vh"
         overlayOpacity="bg-black/30"
       >

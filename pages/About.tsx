@@ -6,17 +6,17 @@ const About: React.FC = () => {
   const { t } = useLanguage();
 
   const places = [
-    { name: 'Ristorante Il Casale', img: '/images/ristorante-il-casale.jpg' },
-    { name: 'Monte Soratte', img: '/images/soratte.jpg' },
-    { name: 'Gole del Farfa', img: '/images/esperienze-2.jpg' },
-    { name: 'Lucus Feroniae', img: '/images/lucus-feroniae.jpg' },
+    { name: 'Ristorante Il Casale', img: '/images/ristorante-il-casale.webp' },
+    { name: 'Monte Soratte', img: '/images/soratte.webp' },
+    { name: 'Gole del Farfa', img: '/images/esperienze-2.webp' },
+    { name: 'Lucus Feroniae', img: '/images/lucus-feroniae.webp' },
   ];
 
   return (
     <div className="bg-bg-cream overflow-hidden">
       {/* Story Hero */}
       <ParallaxSection 
-        image="/images/chi-siamo-1.jpg" 
+        image="/images/chi-siamo-1.webp" 
         height="70vh"
         overlayOpacity="bg-black/50"
       >
@@ -56,7 +56,7 @@ const About: React.FC = () => {
           </div>
           <div className="relative group scroll-reveal">
             <div className="relative rounded-t-full overflow-hidden border-[12px] border-white shadow-2xl aspect-[4/5] transform transition-transform duration-1000 group-hover:scale-105">
-              <img src="/images/chi-siamo-2.jpg" alt="Simona" className="w-full h-full object-cover" />
+              <img src="/images/chi-siamo-2.webp" alt="Simona" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-10 -left-10 bg-white p-8 rounded-2xl shadow-2xl max-w-[280px] border border-stone-100 hidden md:block group-hover:-translate-y-2 transition-transform duration-500 text-left">
               <span className="text-primary text-6xl font-serif leading-none mb-2 block"></span>

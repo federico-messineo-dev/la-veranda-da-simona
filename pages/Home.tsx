@@ -11,7 +11,7 @@ const Home: React.FC = () => {
     <div className="overflow-hidden">
       {/* Hero Section with Parallax */}
       <ParallaxSection 
-        image="/images/home-1.jpg" 
+        image="/images/home-1.webp" 
         height="100vh"
         overlayOpacity="bg-black/40"
       >
@@ -70,7 +70,7 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-2 gap-4 md:gap-8 scroll-reveal">
              <div className="space-y-4 md:space-y-8 mt-12">
               <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl group cursor-pointer">
-                <img src="/images/home-2.jpg" alt="Interior" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
+                <img src="/images/home-2.webp" alt="Interior" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
               </div>
               <div className="bg-stone-200/50 p-6 md:p-8 rounded-3xl border border-stone-300 hover:bg-white transition-colors duration-500 text-left">
                 <h3 className="font-serif text-2xl text-primary mb-3">{t.home.slowLiving}</h3>
@@ -83,7 +83,7 @@ const Home: React.FC = () => {
                 <p className="text-text-main/80 text-sm leading-relaxed">{t.home.flavorsDesc}</p>
               </div>
               <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl group cursor-pointer">
-                <img src="/images/home-3.jpg" alt="Landscape" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
+                <img src="/images/home-3.webp" alt="Landscape" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000" />
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Quote Parallax */}
-      <ParallaxSection image="/images/home-4.jpg" height="50vh">
+      <ParallaxSection image="/images/home-4.webp" height="50vh">
           <div className="max-w-4xl mx-auto px-6 text-center text-white scroll-reveal">
             <span className="material-symbols-outlined text-5xl mb-8">local_florist</span>
             <h2 className="font-serif text-3xl md:text-5xl mb-10 leading-tight italic">
