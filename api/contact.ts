@@ -1,8 +1,8 @@
-import { Resend } from 'resend';
+const { Resend } = require('resend');
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export default async function handler(req: any, res: any) {
+module.exports = async function handler(req: any, res: any) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
@@ -15,7 +15,7 @@ export default async function handler(req: any, res: any) {
 
   try {
     const { data, error } = await resend.emails.send({
-      from: 'La Veranda <onboarding@resend.dev>', // You should use your own domain on Resend
+      from: 'La Veranda <onboarding@resend.dev>',
       to: ['federico.messineo.ai@gmail.com'],
       reply_to: email,
       subject: `[Sito Web] ${subject}: ${name}`,
@@ -32,4 +32,4 @@ export default async function handler(req: any, res: any) {
     console.error('Server error:', error);
     return res.status(500).json({ error: 'Internal server error' });
   }
-}
+};
